@@ -1,11 +1,12 @@
 class Hashmap {
-     constructor() {
-
+     constructor(hashCode) {
+          this.name = hashCode;
      }
 
      set(key, value) {
           
      }
+
 }
 
 function hash(key) {
